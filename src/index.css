@@ -1,13 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Inria+Sans");
+@import url("https://fonts.googleapis.com/css?family=Meddon");
+@import url("https://fonts.googleapis.com/css?family=Walter+Turncoat");
+
+/*  GLOBAL STYLES  */
+:root {
+  --primary-apple-red: #521d18;
+  --primary-apple-blush: #79413c;
+  --secondary-apple-pink: #8f4051;
+  --secondary--eggplant-black: rgb(27, 22, 34);
+  --secondary-oak-brown: #85583c;
+  --secondary-pale-brown: #b29d8d;
+
+  --highlight-apple-green: #eae8b2;
+  --highlight-jade-blue: #8eb3cf;
+  --highlight-jade-green: #8eb3cf;
+  --highlight-glass-blue: #588ac4;
+
+
+  --circle-div-height: 7rem;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  margin-top: 0;
+  font-family: "Inria sans", "Ubuntu", sans-serif;
+  color: white;
+  background-color: var(--secondary--eggplant-black);
+  width: 100vw;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: "Meddon";
+  font-size: 4rem;
+  line-height: 100%;
+}
+
+h2 {
+  font-family: "Walter Turncoat";
+  font-size: 1.5rem;
+  display: block;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 7px;
+  margin-bottom: 1em;
 }
