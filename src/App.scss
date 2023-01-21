@@ -1,3 +1,10 @@
+@import './styles/variables.scss';
+
 .App {
   text-align: center;
+}
+
+body {
+  background-color: $eggplant-black;
+  width: 100vw;
 }
