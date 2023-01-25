@@ -1,0 +1,123 @@
+{
+    "resources": [
+        {
+            "title": "W3Schools",
+            "source": "https://www.w3schools.com/",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "CSS Tricks",
+            "source": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Layout overview",
+            "source": "https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Free Code Camp",
+            "source": "https://www.freecodecamp.org/learn",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Blender 3D modelling",
+            "source": "https://conceptartempire.com/blender-modeling-tutorials/",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Online Debugger",
+            "source": "https://www.onlinegdb.com/",
+            "topic": "debugging"
+        },
+        {
+            "title": "Browser Feature Detector",
+            "source": "https://modernizr.com",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Free webp converter",
+            "source": "https://squoosh.app",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Emojipedia",
+            "source": "https://emojipedia.org/people/",
+            "topic": "so-me"
+        },
+        {
+            "title": "Online JS Repl",
+            "source": "https://replit.com/languages/JavaScript",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "favicon maker",
+            "source": "https://favicon.io/favicon-generator/",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Open Graph Objects",
+            "source": "https://ogp.me/",
+            "topic": "so-me"
+        },
+        {
+            "title": "Font Awesome",
+            "source": "https://fontawesome.com/",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Your Screen Display",
+            "source": "https://www.mydevice.io/",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "Inclusive Design Principles",
+            "source": "https://inclusivedesignprinciples.org/",
+            "topic": "inclusive-design"
+        },
+        {
+            "title": "Browser compatibility",
+            "source": "https://caniuse.com/",
+            "topic": "web-front-end"
+        },
+        {
+            "title": "",
+            "source": "",
+            "topic": ""
+        }
+    ],
+    "textbooks": [
+        {
+            "title": "",
+            "source": "",
+            "topic": ""
+        },
+        {
+            "title": "",
+            "source": "",
+            "topic": ""
+        },
+        {
+            "title": "",
+            "source": "",
+            "topic": ""
+        }
+    ],
+    "references": [
+        {
+            "title": "Git Manual",
+            "source": "https://git-scm.com/docs/git-diff",
+            "topic": "git"
+        },
+        {
+            "title": "",
+            "source": "",
+            "topic": ""
+        },
+        {
+            "title": "",
+            "source": "",
+            "topic": ""
+        }
+    ]
+}

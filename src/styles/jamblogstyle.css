@@ -1,0 +1,377 @@
+/*add js- class names to classes to signal which elements have js relationships*/
+
+/* || General Styles Site-wide*/
+
+/*import fonts from Google Fonts*/
+
+@import url("https://fonts.googleapis.com/css2?family=Rambla:ital,wght@1,700&family=Skranji&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vibur&display=swap");
+
+body {
+  margin-top: 0px;
+  margin-right: 0px;
+  font-size: 14px;
+}
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 26;
+  font-stretch: 50%;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: "Rambla", sans-serif;
+  font-weight: 700;
+  font-size: 18;
+  line-height: normal;
+  padding: 0;
+  margin: 0;
+}
+
+h4 {
+  font-family: "Scranji", cursive;
+  font-size: 16;
+}
+
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  color: indianred;
+}
+
+ul,
+ol,
+li {
+  font-family: Arial Narrow, sans-serif;
+  font-size: large;
+  text-decoration: none;
+  list-style: none;
+}
+
+/* || Header */
+
+.menu {
+  height: 50px;
+  margin: 0;
+  background-color: pink;
+}
+.navbar {
+  /* apply to unordered list tag */
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li a {
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: white;
+}
+
+.navbar a:active {
+  border-bottom: 2px solid magenta;
+}
+
+/*Header div classes*/
+
+.banner {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  padding: 20px;
+  margin: 0px;
+  background-color: rgba(219, 79, 163, 0.75); /*hex #DB4FA1*/
+}
+
+.menu {
+  /*div for the navbar*/
+  height: 50px;
+  margin: 0px;
+  padding: 10px;
+}
+
+.title-div {
+  /*Div for name of site*/
+  height: 100px;
+  margin: auto;
+  text-align: center;
+}
+.page-div {
+  /*Div for name of page*/
+  height: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.title {
+  /*class for blog title-div heading1*/
+  text-align: center;
+}
+/* || Main */
+
+.main-container {
+  display: flex;
+  background-color: rgba(53, 204, 121, 0.65);
+}
+
+.sidebar {
+  /*background-color: rgba(219, 208, 173, 0.65);*/
+  margin: 0;
+  width: 15%;
+  padding: 20px 15px;
+  min-width: 60px;
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar img {
+    display: none;
+  }
+}
+
+.sidebar ul {
+  margin-left: 0;
+  padding: 0;
+}
+
+.sidebar li {
+  line-height: 2em;
+  font-size: 16px;
+}
+
+.sidebar li a {
+  text-decoration: none;
+  color: rgb(27, 98, 230);
+}
+
+.sidebar li a:hover {
+  color: rgb(240, 238, 114);
+  text-shadow: 1px 1px rgb(206, 126, 199);
+}
+
+.sidebar li a:visited {
+  color: rgb(105, 6, 175);
+}
+
+.mobile-nav {
+  /*this is for small screens only, set display to none otherwise*/
+  display: none;
+}
+
+.blog-div {
+  /*the main div for the blog page*/
+  font-family: Noto Sans KR, sans-serif;
+  padding: 20px;
+  width: 50%;
+  border-left: 5px solid magenta;
+  border-right: 5px solid magenta;
+}
+
+.blog-div h3 {
+  font-size: 22;
+  font-family: Noto Sans KR, sans-serif;
+  letter-spacing: 1.5px;
+}
+
+.blog-div h4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.blog-div span.emphatic {
+  color: green;
+  font-weight: 700;
+  size: 30px;
+}
+
+.blog-div a {
+  color: white;
+  text-shadow: 1px 1px rgb(245, 98, 176);
+  text-decoration: none;
+}
+
+.blog-div a:visited {
+  color: magenta;
+  text-shadow: 2px 2px purple;
+}
+.post-div {
+  /* third div in main, for links to blog posts, articles*/
+  font-family: Noto Sans KR, sans-serif;
+  padding: 20px 15px;
+  width: auto;
+  min-width: 100px;
+}
+.post-div ul {
+  margin-left: 0;
+  padding: 0;
+  line-height: 1.5em;
+}
+
+.post-div a {
+  /*text style for post list hyperlinks*/
+  font-family: Noto Sans KR, sans-serif;
+  font-size: 14px;
+  color: rgb(245, 98, 176);
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  word-wrap: wrap;
+}
+
+post-div a:visited {
+  color: magenta;
+}
+
+post-div a:hover {
+  color: white;
+  font-weight: bold;
+}
+post-div a:active {
+  color: orange;
+}
+
+.test-button {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  border: solid 2px black;
+  background-color: pink;
+  color: brown;
+  font: Helvetica;
+}
+
+.codetype {
+  /*this is a div class for illustrating example code in the blog posts*/
+  border: grey solid 1px;
+  box-shadow: darkgrey 1px 2px;
+  background-color: lightskyblue;
+  font-family: "Courier New", Courier, monospace;
+  margin: 5px;
+  padding: 5px 5px 5px 30px;
+}
+
+.neonText {
+  /*class for neon text in a blog post*/
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  padding: 15px;
+  font-size: 48px;
+  font-family: "Vibur", cursive;
+  animation: flicker 1.5s infinite alternate; 
+  /*text-shadow: 0 0 7px white, 0 0 10px white, 0 0 20px #ff99ff, 0 0 24px #ff99ff,
+    0 0 52px #ff99ff, 0 0 64px #ff99ff, 0 0 84px #ff99ff, 0 0 104px #ff99ff,
+    0 0 150px #ff99ff;*/
+}
+
+@media screen and (max-width: 600px) {
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+
+  .blog-div {
+    box-sizing: border-box;
+    width: 100%;
+  }
+
+  .mobile-nav {
+    /*Special nav bar for small screens*/
+    display: flex;
+    box-sizing: border-box;
+    height: 70px;
+    background: transparent;
+    border: 5px solid magenta;
+  }
+
+  .mobile-nav ul {
+    padding-left: 20px;
+    text-align: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .mobile-nav ul a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .post-div {
+    border-top: 5px solid magenta;
+  }
+}
+
+@keyframes flicker {
+  0%,
+  20%,
+  65%,
+  80%,
+  100% {
+    text-shadow: 0 0 7px white, 0 0 10px white, 0 0 20px #ff99ff,
+      0 0 24px #ff99ff, 0 0 52px #ff99ff, 0 0 64px #ff99ff, 0 0 84px #ff99ff,
+      0 0 104px #ff99ff, 0 0 150px #ff99ff;
+  }
+  22%,
+  67%,
+  82% {
+    text-shadow: none;
+  }
+}
+
+/* || Footer */
+footer {
+  height: 150px;
+  background-image: linear-gradient(pink, rgb(245, 98, 176));
+
+  color: white;
+  display: block;
+  float: bottom;
+  padding: 20px;
+  font-family: Noto Sans KR, sans-serif;
+  font-size: smaller;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+}
+
+footer a:active {
+  color: orange;
+}
+
+footer a:hover {
+  color: pink;
+  text-shadow: 1px 2px darkslateblue;
+}
+
+/*  attemp to create nested div for return-to-top link
+#return-to-top {
+  height: 30px;
+  width: 150px;
+  padding: 10px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  text-decoration: none;
+}*/

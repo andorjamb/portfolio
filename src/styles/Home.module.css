@@ -1,0 +1,46 @@
+div.home {
+    margin: auto;
+    padding: 50px 50px;
+}
+
+
+div.blackCard {
+    height: 300px;
+    width: 300px;
+    background-image: linear-gradient(to left top, rgba(1, 1, 1, 1) 10%, rgba(1, 1, 1, 0.2));
+    color: white;
+
+    box-shadow: -8px 0 18px rgba(1, 1, 1, 0.5),
+        6px 0 15px 5px rgba(12, 2, 2, 0.2);
+
+    padding: 1rem;
+    margin: 1rem;
+
+
+}
+
+div.flex {
+    display: flex;
+    width: 100vw;
+}
+
+div.whiteDiamond {
+    box-shadow: inset -8px -8px 20px 10px rgb(236, 236, 236),
+        inset 8px 8px 20px 10px rgba(251, 251, 251, 1);
+    background-color: rgba(246, 246, 246, 1);
+    height: 100px;
+    width: 100px;
+    transform: rotate(45deg) scalex(0.9);
+    transition: ease-in-out 0.5s;
+    margin: 1rem;
+    /*   border-bottom: 300px solid red;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent; */
+
+
+}
+
+div.whiteDiamond:hover {
+    transform: none;
+    transition: ease-in-out 0.5s;
+}
