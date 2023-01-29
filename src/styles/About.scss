@@ -4,3 +4,9 @@
     background-color: $primary-apple-red;
 
 }
+
+.about button {
+    background-image: radial-gradient(blue, red);
+}
+
+/* radial-gradient:  (<ellipse | circle>, <farthest-corner|closest-side|closest-corner|farthest-side,  )*/

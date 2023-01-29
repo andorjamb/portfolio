@@ -1,17 +1,12 @@
-/*add js- class names to classes to signal which elements have js relationships*/
-
-/* || General Styles Site-wide*/
-
-/*import fonts from Google Fonts*/
-
 @import url("https://fonts.googleapis.com/css2?family=Rambla:ital,wght@1,700&family=Skranji&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Vibur&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vibur&family=Raleway&display=swap");
 
 body {
   margin-top: 0px;
   margin-right: 0px;
   font-size: 14px;
 }
+
 h1,
 h2 {
   font-family: "Raleway", sans-serif;
@@ -50,13 +45,12 @@ li {
   list-style: none;
 }
 
-/* || Header */
-
 .menu {
   height: 50px;
   margin: 0;
   background-color: pink;
 }
+
 .navbar {
   /* apply to unordered list tag */
   display: flex;
@@ -78,15 +72,14 @@ li {
   border-bottom: 2px solid magenta;
 }
 
-/*Header div classes*/
-
 .banner {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: space-between;
   padding: 20px;
   margin: 0px;
-  background-color: rgba(219, 79, 163, 0.75); /*hex #DB4FA1*/
+  background-color: rgba(219, 79, 163, 0.75);
+  /*hex #DB4FA1*/
 }
 
 .menu {
@@ -102,6 +95,7 @@ li {
   margin: auto;
   text-align: center;
 }
+
 .page-div {
   /*Div for name of page*/
   height: 100px;
@@ -113,6 +107,7 @@ li {
   /*class for blog title-div heading1*/
   text-align: center;
 }
+
 /* || Main */
 
 .main-container {
@@ -204,6 +199,7 @@ li {
   color: magenta;
   text-shadow: 2px 2px purple;
 }
+
 .post-div {
   /* third div in main, for links to blog posts, articles*/
   font-family: Noto Sans KR, sans-serif;
@@ -211,6 +207,7 @@ li {
   width: auto;
   min-width: 100px;
 }
+
 .post-div ul {
   margin-left: 0;
   padding: 0;
@@ -238,6 +235,7 @@ post-div a:hover {
   color: white;
   font-weight: bold;
 }
+
 post-div a:active {
   color: orange;
 }
@@ -270,7 +268,7 @@ post-div a:active {
   padding: 15px;
   font-size: 48px;
   font-family: "Vibur", cursive;
-  animation: flicker 1.5s infinite alternate; 
+  animation: flicker 1.5s infinite alternate;
   /*text-shadow: 0 0 7px white, 0 0 10px white, 0 0 20px #ff99ff, 0 0 24px #ff99ff,
     0 0 52px #ff99ff, 0 0 64px #ff99ff, 0 0 84px #ff99ff, 0 0 104px #ff99ff,
     0 0 150px #ff99ff;*/
@@ -320,6 +318,7 @@ post-div a:active {
 }
 
 @keyframes flicker {
+
   0%,
   20%,
   65%,
@@ -329,6 +328,7 @@ post-div a:active {
       0 0 24px #ff99ff, 0 0 52px #ff99ff, 0 0 64px #ff99ff, 0 0 84px #ff99ff,
       0 0 104px #ff99ff, 0 0 150px #ff99ff;
   }
+
   22%,
   67%,
   82% {

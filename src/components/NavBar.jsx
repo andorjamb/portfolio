@@ -1,9 +1,13 @@
 import React from 'react';
-import { Nav, Navbar, NavLink } from 'react-bootstrap';
+import { Nav, Navbar, NavbarBrand, NavLink } from 'react-bootstrap';
 
 const NavBar = () => {
     return (
         <Navbar>
+            <NavbarBrand></NavbarBrand>
+            <Nav>
+                <NavLink></NavLink>
+            </Nav>
 
         </Navbar>
     );
