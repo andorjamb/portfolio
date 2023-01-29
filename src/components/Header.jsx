@@ -1,11 +1,14 @@
 import React from 'react';
-import Navbar from './NavBar';
+import NavBar from './NavBar';
 import '../styles/Header.scss';
 
 const Header = () => {
     return (
         <header>
-            <Navbar />
+            <div className="header_div ">
+                <h1 className="header_h1">Anna Petelin</h1>
+            </div>
+            <NavBar />
         </header>
     );
 };

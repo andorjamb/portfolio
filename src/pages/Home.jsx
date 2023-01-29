@@ -11,11 +11,12 @@ const Home = () => {
 
     return (
         <div className={classes.home}>
+            <div className={classes.hero}>stuff should be here</div>
             <div className={classes.flex}>
-                <div className={classes.blackCard}>Here</div>
-                <div className={classes.blackCard}>Here</div>
+                <div className={classes.blackCard}><h4>Here</h4></div>
+                <div className={classes.blackCard}><h4>Here</h4></div>
             </div>
-            <div className={classes.blackCard}>Here</div>
+            <div className={classes.blackCard}><h4>Here</h4></div>
             <div className={classes.flex}>  <div className={classes.whiteDiamond}></div>
                 <div className={classes.whiteDiamond}><p>Text</p></div>
 

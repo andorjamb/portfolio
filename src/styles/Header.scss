@@ -4,4 +4,29 @@ header {
     background-color: $primary-apple-blush;
     height: 20vh;
     width: 100%;
+    z-index: 1;
+}
+
+.header_h1 {
+
+
+    font-size: 4rem;
+    line-height: 100%;
+    font-family: $header_h1_font;
+    background: linear-gradient(to right, rgb(206, 126, 199) 25%, magenta 50%, rgb(206, 126, 199) 75%, );
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+
+}
+
+.header_div {
+    background: linear-gradient(to right, magenta 25%, rgb(206, 126, 199) 50%, magenta 75%, );
+    ;
+}
+
+.nav_h2 {
+    font-family: $nav_h1_font;
+
 }

@@ -3,12 +3,22 @@ div.home {
     padding: 50px 50px;
 }
 
+div.hero {
+    width: 100vw;
+    height: 60vh;
+    margin-top: 30vh;
+    background-image: url("../assets/linus-nylund-JP23z_-dA74-unsplash.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 0;
+}
+
 
 div.blackCard {
     height: 300px;
     width: 300px;
     background-image: linear-gradient(to left top, rgba(1, 1, 1, 1) 10%, rgba(1, 1, 1, 0.2));
-    color: white;
+    color: rgb(206, 126, 199);
 
     box-shadow: -8px 0 18px rgba(1, 1, 1, 0.5),
         6px 0 15px 5px rgba(12, 2, 2, 0.2);
